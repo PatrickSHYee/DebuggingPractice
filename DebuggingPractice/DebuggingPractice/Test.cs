@@ -23,16 +23,19 @@ namespace DebuggingPractice
         [Test]
         public void testISBN1()
         {
+            // false
             Assert.That(Program.IsValidISBN("0-7475-3269-9"));
         }
         [Test]
         public void testISBN2()
         {
+            // false
             Assert.That(Program.IsValidISBN("0-4515-2493-4"));
         }
         [Test]
         public void testISBN3()
         {
+            // false
             Assert.That(Program.IsValidISBN("0-1420-0283-6"));
         }
         [Test]
@@ -48,11 +51,13 @@ namespace DebuggingPractice
         [Test]
         public void testPanagram2()
         {
+            // false
             Assert.That(Program.IsPanagram("Fat hag dwarves quickly zap jinx mobs"));
         }
         [Test]
         public void testPanagram3()
         {
+            // false
             Assert.That(Program.IsPanagram("Pack my box with five dozen liquor jugs."));
         }
     }
